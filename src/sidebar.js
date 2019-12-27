@@ -350,7 +350,7 @@ class Sidebar extends Component {
         );
       }
     }
-
+console.log(children, 'chidlren');
     return (
       <div {...rootProps}>
         <div
