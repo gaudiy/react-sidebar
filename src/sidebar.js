@@ -375,7 +375,7 @@ class Sidebar extends Component {
           id={this.props.contentId}
         >
           {dragHandle}
-          {this.props.children}
+          {this.props.children[0]}
         </div>
       </div>
     );
